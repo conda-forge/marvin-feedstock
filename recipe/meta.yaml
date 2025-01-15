@@ -21,6 +21,7 @@ requirements:
     - setuptools-scm >=6.2
     - pip
   run:
+    # base
     - python
     - cachetools >=5
     - fastapi
@@ -38,6 +39,13 @@ requirements:
     - typing_extensions >=4.0.0
     - uvicorn >=0.22.0
     - partialjson >=0.0.5
+    # audio
+    - pyaudio >=0.2.11
+    - pydub >=0.25
+    - simpleaudio >=1.0
+    - speechrecognition >=3.10
+    # video
+    - opencv >=4.5
 
 test:
   requires:
